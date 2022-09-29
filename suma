@@ -1,0 +1,16 @@
+print("---------------------------------")
+print("--------SUMA N 10 PRIMEROS-------")
+print("---------------------------------")
+
+#INPUT
+n=int(input("Digite el valor de n:"))
+
+#PROCESS
+i = 1 
+suma = 0 
+while (i<=n):
+    suma=suma + i
+    i=i+1
+
+#OUTPUT
+    print("La suma de los " + str(n) + " primeros numeros: " + str(suma))
